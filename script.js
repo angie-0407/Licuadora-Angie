@@ -23,5 +23,6 @@ function reproducirSonido() {
     }else {
         sonidoLicuadora.pause();
         botonLicuadora.pause();
+        sonidoLicuadora.currentTime = 0;
     }
   }

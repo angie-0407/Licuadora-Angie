@@ -5,8 +5,8 @@
 }
 
 .blender{
-    width: 250px;
-    height: 500px;
+    width: 400px;
+    height: 700px;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -22,7 +22,7 @@
 }
 
 .blender-button{
-    width: 60px;
-    height: 70px;
-    margin: 350px auto 0px;
+    width: 35px;
+    height: 40px;
+    margin: 440px auto 0px;
 }

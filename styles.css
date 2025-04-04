@@ -7,12 +7,18 @@
 .blender{
     width: 250px;
     height: 500px;
-    background-color: #ff0000;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-image: url(../assets/licuadoraApagada.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blender-on{
+    background-image: url(../assets/licuadoraEncendida.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

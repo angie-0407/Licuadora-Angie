@@ -17,16 +17,12 @@
     background-repeat: no-repeat;
 }
 
-.blender-on{
+.blender.active{
     background-image: url(../assets/licuadoraEncendida.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .blender-button{
-    width: 70px;
+    width: 60px;
     height: 70px;
-    background-color: #1100ff;
     margin: 350px auto 0px;
 }

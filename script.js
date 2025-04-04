@@ -7,10 +7,12 @@ var botonLicuadora = document.getElementById("blender-button-sound");
 function controlarLicuadora() {
     if (estadoLicuadora == false) {
         estadoLicuadora = true;
+        reproducirSonido();
         licuadora.classList.add("active");
         console.log("Licuadora encendida");
     }else {
         estadoLicuadora = false;
+        reproducirSonido();
         licuadora.classList.remove("active");
         console.log("Licuadora apagada");
     }

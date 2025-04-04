@@ -24,7 +24,7 @@ function reproducirSonido() {
         botonLicuadora.play();
     }else {
         sonidoLicuadora.pause();
-        botonLicuadora.pause();
         sonidoLicuadora.currentTime = 0;
+        botonLicuadora.play();
     }
   }

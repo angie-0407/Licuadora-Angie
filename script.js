@@ -1,3 +1,4 @@
+console.log("Hola mundo desde JS");
 var estadoLicuadora = false;
 
 function controlarLicuadora() {
@@ -9,3 +10,5 @@ function controlarLicuadora() {
         console.log("Licuadora apagada");
     }
   }
+
+  
